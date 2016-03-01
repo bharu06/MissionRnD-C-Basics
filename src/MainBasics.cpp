@@ -38,9 +38,9 @@ int main(){
 	printf("%d %d\n", a, b);
 
 	//Is Older 
-	char date1[20] = "29-02-2004";
-	char date2[20] = "29-02-2000";
-	int check=isOlder(date1, date2);
+	char date1[20] = "29-4";
+	char date2[20] = "29";
+	int check = isOlder("1000", "15-07-2000");
 	if (check == 0){
 		printf("Both are of same age \n");
 	}
@@ -49,7 +49,7 @@ int main(){
 	}
 
 	//Variable Arguments
-	int total = variableArguments(3, 20, 90, 98);
+	int total = variableArguments(1,10);
 	printf("There are %d students greater than 90\n", total);
 	
 	
